@@ -48,7 +48,7 @@ while (-1) {
 
     foreach ($domains as $key => $domain) {
         $name = $scammer->getName() . $scammer->getName();
-        $register = $scammer->register('mobileworksws.xyz', $name);
+        $register = $scammer->register($domain, $name);
         $pregName = preg_split('/(?=[A-Z])/', $name);
 
         if ($register) {
